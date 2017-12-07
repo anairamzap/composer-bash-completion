@@ -3,6 +3,18 @@ This repository was forked from https://github.com/iArren/composer-bash-completi
 I've just did a cheap replacement in the grep filtering, to restrict packages to drupal modules.
 
 
+**NOTE:** I needed something quick to avoid the annoying: 
+
+- 'what was it the machine name of this package?' 🤔 
+- 'open browser' 
+- 'search' 
+- 'copy + paste module name in console'
+- And repeat all steps for each module :cry:
+
+So I realise this is a quick and dirty method to achieve that. 
+Please, feel free to correct / amend / suggest a nicer way :)
+
+
 #### Requirements
 
 * composer
