@@ -1,15 +1,15 @@
-#### Bash completion for Composer Drupal packages
+### Bash completion for Composer Drupal packages
 This repository was forked from https://github.com/iArren/composer-bash-completion, 
 I've just did a cheap replacement in the grep filtering, to restrict packages to drupal modules.
 
 
-##### Requirements
+#### Requirements
 
 * composer
 * drupal
 * bash :p
 
-##### Installation
+#### Installation
 
 1. Get the bash completion script and move it to `/etc/bash_completion.d/composer`:
 
@@ -29,10 +29,11 @@ I've just did a cheap replacement in the grep filtering, to restrict packages to
 
 3. Source your bahsrc to 'apply changes' or restart your console:
 
-    ``` source ~/.bashrc
+    ``` 
+    source ~/.bashrc
     ```
 
-##### Usage
+#### Usage
 
 Before using completion you should install a composer as `composer` executable.
 After then all done you can use it like you use `apt-get` with auto-completion.
