@@ -18,7 +18,8 @@ _composer()
         if [ ! -f $packages -o $( which composer ) -nt $packages ]; then
             # checking existance of the packages list
 	        mkdir -p $cache
-            composer show -a | grep -v '^No composer' >$packages
+	    # grep changed to match only Drupal packages
+            composer show -a | grep '^drupal/' >$packages
         fi
         if [[ $prev != $special ]]; then
             # assume $prev is a package name
